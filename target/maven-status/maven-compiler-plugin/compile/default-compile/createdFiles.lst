@@ -1,2 +1,2 @@
 ru\inovus\ziaevtestapp\Application.class
-ru\inovus\ziaevtestapp\MainController.class
+ru\inovus\ziaevtestapp\controllers\WelcomeController.class
