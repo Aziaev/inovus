@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Ziaev Test </title>
+
+    <link rel="stylesheet" href="/css/materialize.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+</head>
+
+<body>
+
+<nav class="indigo darken-3">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo">Testapp</a>
+            <form role="form" action="/login" method="post">
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                <div>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" required autofocus>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div>
+                    <label for="remember-me">Remember me</label>
+                    <input type="checkbox" name="remember-me" id="remember-me">
+                </div>
+                <button type="submit">Sign in</button>
+            </form>
+
+            <div th:if="{error.isPresent()}" >
+                <p>The email or password you have entered is invalid, try again.</p>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="section white">
+    <div class="row container" id="whatisthis">
+        <h3 class="header">Application is running</h3>
+
+        <h1 class="" style="text-align: center; vertical-align: middle">
+            Hello
+            <span sec:authorize="!isAuthenticated()">guest</span>
+            <span sec:authorize="isAuthenticated()"> <span th:text="${username}"/></span>
+            !
+        </h1>
+        <h4 class="" style="text-align: center; vertical-align: middle">
+            <div sec:authorize="isAuthenticated()">
+                Login and start to use this awesome financial stuff today and be happy
+            </div>
+
+            <div sec:authorize="!isAuthenticated()">
+                Go operations page and check your money blablabla etc wowaweewa
+            </div>
+        </h4>
+
+        <p class="grey-text text-darken-3 lighten-3">
+            Personal budget multiplatform java based awesome feature. App builded with this stuff:</p>
+        <div class="indexfeatures">
+            <span>Core:</span><br/>
+            <div class="chip">Java 1.8</div>
+            <div class="chip">Spring Boot</div>
+            <div class="chip">Spring Security</div>
+            <div class="chip">JPA</div>
+        </div>
+        <div class="indexfeatures">
+            <span>Easy code:</span><br/>
+            <div class="chip">Lombok 1.16.10</div>
+        </div>
+        <div class="indexfeatures">
+            <span>Web:</span><br/>
+            <div class="chip">Thymeleaf 3.0</div>
+            <div class="chip">Materialize CSS</div>
+        </div>
+        <div class="indexfeatures">
+            <span>Server and database:</span><br/>
+            <div class="chip">Tomcat 8.0.36</div>
+            <div class="chip">PostgreSQL</div>
+            <div class="chip">pgAdmin III</div>
+        </div>
+        <div class="indexfeatures">
+            <span>IDE:</span><br/>
+            <div class="chip">Intellij IDEA 2016.2.5</div>
+        </div>
+    </div>
+</div>
+<footer class="footer sticky">
+    <div class="container">
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="/js/wow.js"></script>
+</body>
+</html>

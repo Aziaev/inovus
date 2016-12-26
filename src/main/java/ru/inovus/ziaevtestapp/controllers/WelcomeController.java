@@ -17,6 +17,6 @@ public class WelcomeController {
 
     @RequestMapping("/")
     public String welcomePage(Model model) {
-        return "welcome/index";
+        return "index";
     }
 }
