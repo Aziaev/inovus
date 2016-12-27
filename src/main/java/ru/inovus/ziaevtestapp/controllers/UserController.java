@@ -1,5 +1,7 @@
 package ru.inovus.ziaevtestapp.controllers;
 
+import lombok.extern.apachecommons.CommonsLog;
+import lombok.extern.log4j.Log4j;
 import ru.inovus.ziaevtestapp.domain.UserCreateForm;
 import ru.inovus.ziaevtestapp.domain.validator.UserCreateFormValidator;
 import ru.inovus.ziaevtestapp.service.user.UserService;
@@ -17,7 +19,9 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
+import java.io.*;
 
+@Log4j
 @Controller
 public class UserController {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
@@ -47,8 +51,9 @@ public class UserController {
     public String handleUserCreateForm(@Valid @ModelAttribute("form") UserCreateForm form, BindingResult bindingResult) {
         LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
-            //TODO: Попробовать здесь вывести на страницу сообщение
-            LOGGER.warn("Resul has errors");
+            //TODO: LOG to file this
+            LOGGER.warn("Result has errors");
+            log.error("Usercreate.error" + bindingResult.getFieldError());
             return "user_create";
         }
         try {
@@ -58,6 +63,7 @@ public class UserController {
             bindingResult.reject("name.exists", "Это имя уже используется");
             return "user_create";
         }
-        return "redirect:/welcome";
+        LOGGER.info("Success login");
+        return "redirect:/sign-in";
     }
 }
