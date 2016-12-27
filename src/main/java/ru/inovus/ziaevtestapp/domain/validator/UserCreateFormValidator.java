@@ -39,6 +39,9 @@ public class UserCreateFormValidator implements org.springframework.validation.V
             errors.reject("password.no_match", "Пароли не совпадают");
             //TODO: need this in log file?
             LOGGER.debug("Password not match for email " + form.getEmail());
+        } else if (form.getPassword().length() < 8 || form.getPassword().length() > 32){
+            errors.reject("password.length_error", "Пароль должен быть длиной от 8 до 32 символов");
+            LOGGER.debug("Password length is incorrect for " + form.getEmail());
         }
     }
 

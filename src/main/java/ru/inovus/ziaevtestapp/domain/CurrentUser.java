@@ -2,9 +2,6 @@ package ru.inovus.ziaevtestapp.domain;
 
 import org.springframework.security.core.authority.AuthorityUtils;
 
-/**
- * Created by Artur.Ziaev on 25.12.2016.
- */
 public class CurrentUser extends org.springframework.security.core.userdetails.User {
     private User user;
 

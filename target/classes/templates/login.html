@@ -7,17 +7,17 @@
                 <div class="col s12 m4 l3"></div>
                 <div class="col s12 m4 l6">
                     <div class="col s12 wowbalance">
-                        <h3>Login</h3>
+                        <h3>Регистрация</h3>
                     </div>
-                    <form role="form" action="/login" method="post">
+                    <form role="form" action="/sign-in" method="post">
                         <!--<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>-->
                         <div class="input-field col s12">
-                            <label for="email">Email address</label>
+                            <label for="email">Электропочта</label>
                             <input type="email" name="email" id="email" th:required="true" th:autofocus="true"/>
                         </div>
 
                         <div class="input-field col s12">
-                            <label for="password">Password</label>
+                            <label for="password">Пароль</label>
                             <input type="password" name="password" id="password" th:required="true"/>
                         </div>
 
@@ -26,14 +26,14 @@
                                 <label>
                                     <input type="checkbox" name="remember-me" id="remember-me"/>
                                     <span class="lever"></span>
-                                    Remember me
+                                    Запомнить меня
                                 </label>
                             </div>
                         </div>
                         <p></p>
                         <div class="input-field col s12 loginbutton">
                             <div>
-                                <button class="waves-effect waves-light btn" type="submit">Sign in</button>
+                                <button class="waves-effect waves-light btn" type="submit">Войти</button>
                             </div>
                         </div>
                     </form>

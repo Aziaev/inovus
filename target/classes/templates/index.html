@@ -12,14 +12,14 @@
                 <div class="center-align">
                     <a class="waves-effect waves-light btn" href="/sign-up">Регистрация</a>
                 </div>
-                <p class="grey-text text-darken-3 lighten-3  center-align">
-                    Тестовый пользователь admin@localhost / 123<br/>
-                </p>
             </div>
             <div class="col s8 offset-s2" sec:authorize="isAuthenticated()">
-                <h3 class="header center-align">Добрый ХХХ-день-ХХХ <span th:text="${username}"/></h3>
-                <p class="grey-text text-darken-3 lighten-3">
+                <h3 class="header center-align">Добр<span th:text="${greeting}"/> <span th:text="${username}"/>!</h3>
+                <p class="grey-text text-darken-3 lighten-3 center-align">
                     Вы успешно авторизировались. Теперь вы можете выйти.</p>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn" href="/logout">Выйти</a>
+                </div>
             </div>
         </div>
     </div>
