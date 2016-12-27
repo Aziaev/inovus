@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import static ru.inovus.ziaevtestapp.service.user.UserServiceImpl.getUserId;
 import static ru.inovus.ziaevtestapp.service.user.UserServiceImpl.getUsername;
 
+@RequestMapping("/")
 @Controller
 public class WelcomeController {
 
-    @RequestMapping("/")
+    @RequestMapping("")
     public String index() {
         return "redirect:welcome";
     }

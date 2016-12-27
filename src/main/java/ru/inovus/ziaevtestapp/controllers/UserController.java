@@ -48,6 +48,7 @@ public class UserController {
         LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
             //TODO: Попробовать здесь вывести на страницу сообщение
+            LOGGER.warn("Resul has errors");
             return "user_create";
         }
         try {
@@ -57,6 +58,6 @@ public class UserController {
             bindingResult.reject("name.exists", "Это имя уже используется");
             return "user_create";
         }
-        return "redirect:/sign-in";
+        return "redirect:/welcome";
     }
 }

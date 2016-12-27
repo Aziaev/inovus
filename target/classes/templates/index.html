@@ -1,32 +1,25 @@
-<html layout:decorator="layout">
+<html xmlns:sec="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorator="layout">
 <div layout:fragment="content">
     <div class="section white">
         <div class="row container rowmain valign-wrapper">
-            <div class="col s8 offset-s2">
+            <div class="col s8 offset-s2" sec:authorize="!isAuthenticated()">
                 <h3 class="header center-align">Приложение запущено</h3>
-                <p class="grey-text text-darken-3 lighten-3">
-                    Для начала работы нужно зарегистрироваться. Для этого нужно нажать кнопку "Регистрация". После регистрации вы будете перенаправлены на страницу приветствия</p>
-                <p class="grey-text text-darken-3 lighten-3">
-                    Тестовый пользователь admin@localhost / 123<br />
-
-                    CurrentUser currentUser = (CurrentUser) authentication.getPrincipal();
-
-                <h4 class="" style="text-align: center; vertical-align: middle">
-                    Hello
-                    <span sec:authorize="!isAuthenticated()">guest</span>
-                    <span sec:authorize="isAuthenticated()"> <span th:text="${username}"/></span>
-                    !
-                </h4>
-                <h4 class="" style="text-align: center; vertical-align: middle">
-                    <div sec:authorize="isAuthenticated()">
-                        Authenticated
-                    </div>
-
-                    <div sec:authorize="!isAuthenticated()">
-                        Not authenticated !
-                    </div>
-                </h4>
+                <p class="grey-text text-darken-3 lighten-3 center-align">
+                    Для начала работы нужно зарегистрироваться.</p>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn" href="/sign-up">Регистрация</a>
+                </div>
+                <p class="grey-text text-darken-3 lighten-3  center-align">
+                    Тестовый пользователь admin@localhost / 123<br/>
                 </p>
+            </div>
+            <div class="col s8 offset-s2" sec:authorize="isAuthenticated()">
+                <h3 class="header center-align">Добрый ХХХ-день-ХХХ <span th:text="${username}"/></h3>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Вы успешно авторизировались. Теперь вы можете выйти.</p>
             </div>
         </div>
     </div>
