@@ -7,7 +7,7 @@ import javax.validation.constraints.NotNull;
 public class UserCreateForm {
 
     @NotEmpty
-    private String name = "";
+    private String email = "";
 
     @NotEmpty
     private String password = "";
@@ -18,19 +18,46 @@ public class UserCreateForm {
     @NotNull
     private Role role = Role.USER;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getPassword() {
         return password;
     }
 
-    public String getName() {
-        return name;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPasswordRepeated() {
+        return passwordRepeated;
+    }
+
+    public void setPasswordRepeated(String passwordRepeated) {
+        this.passwordRepeated = passwordRepeated;
     }
 
     public Role getRole() {
         return role;
     }
 
-    public String getPasswordRepeated() {
-        return passwordRepeated;
+    public void setRole(Role role) {
+        this.role = role;
     }
+
+    @Override
+    public String toString() {
+        return "UserCreateForm{" +
+                "email='" + email.replaceFirst("@.+", "@***") + '\'' +
+                ", password=***" + '\'' +
+                ", passwordRepeated=***" + '\'' +
+                ", role=" + role +
+                '}';
+    }
+
 }

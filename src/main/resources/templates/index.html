@@ -1,70 +1,67 @@
-<html xmlns:th="http://www.w3.org/1999/xhtml" layout:decorator="layout">
+<html layout:decorator="layout">
 <div layout:fragment="content">
-    <!--<div class="container operations">-->
-        <!--<div class="row">-->
-            <!--<div class="col s6 offset-s3">-->
-                <!--<h3 class="center-align">Приложение запущено</h3>-->
-                <!--<p class="center-align lead">Для начала работы войдите в приложение</p>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/parallax4.png" /></div>
-    </div>
-    <div class="parallax-container">
-        <div class="container" style="padding-top: 10%">
-            <h1 class="white-text" style="text-align: center; vertical-align: middle">
-                Hello
-                <span sec:authorize="!isAuthenticated()">guest</span>
-                <span sec:authorize="isAuthenticated()"> <span th:text="${username}"/></span>
-                !
-            </h1>
-            <h4 class="white-text" style="text-align: center; vertical-align: middle">
-                <div sec:authorize="isAuthenticated()">
-                    Login and start to use this awesome financial stuff today and be happy
-                </div>
-
-                <div sec:authorize="!isAuthenticated()">
-                    Go operations page and check your money blablabla etc wowaweewa
-                </div>
-            </h4>
-        </div>
-        <div class="parallax">
-            <img src="/images/parallax4.png" style="display: block; transform: translate3d(-50%, 354px, 0px);"/>
-        </div>
-    </div>
     <div class="section white">
+        <div class="row container rowmain valign-wrapper">
+            <div class="col s8 offset-s2">
+                <h3 class="header center-align">Приложение запущено</h3>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Для начала работы нужно зарегистрироваться. Для этого нужно нажать кнопку "Регистрация". После регистрации вы будете перенаправлены на страницу приветствия</p>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Тестовый пользователь admin@localhost / 123<br />
+
+                    CurrentUser currentUser = (CurrentUser) authentication.getPrincipal();
+
+                <h4 class="" style="text-align: center; vertical-align: middle">
+                    Hello
+                    <span sec:authorize="!isAuthenticated()">guest</span>
+                    <span sec:authorize="isAuthenticated()"> <span th:text="${username}"/></span>
+                    !
+                </h4>
+                <h4 class="" style="text-align: center; vertical-align: middle">
+                    <div sec:authorize="isAuthenticated()">
+                        Authenticated
+                    </div>
+
+                    <div sec:authorize="!isAuthenticated()">
+                        Not authenticated !
+                    </div>
+                </h4>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section teal lighten-5">
         <div class="row container" id="whatisthis">
-            <h3 class="header">wowmoney </h3>
-            <p class="grey-text text-darken-3 lighten-3">
-                Personal budget multiplatform java based awesome feature. App builded with this stuff:</p>
-            <div class="indexfeatures">
-                <span>Core:</span><br/>
-                <div class="chip">Java 1.8</div>
-                <div class="chip">Spring Boot</div>
-                <div class="chip">Spring Security</div>
-                <div class="chip">JPA</div>
+            <div class="col s8 offset-s2">
+                <h3 class="header center-align">Информация</h3>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Тестовое приложение Зиаева Артура. Реализовано с использованием следующих технологий:</p>
+                <div class="indexfeatures">
+                    <span>Backend:</span><br/>
+                    <div class="chip">Java 1.8</div>
+                    <div class="chip">Spring Boot</div>
+                    <div class="chip">Spring Security</div>
+                    <div class="chip">JPA</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Easy code:</span><br/>
+                    <div class="chip">Lombok 1.16.10</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Frontend</span><br/>
+                    <div class="chip">Thymeleaf 3.0</div>
+                    <div class="chip">Materialize CSS</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Server and database:</span><br/>
+                    <div class="chip">Tomcat 8.0.36</div>
+                    <div class="chip">HSQLDB</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>IDE:</span><br/>
+                    <div class="chip">Intellij IDEA 2016.2.5</div>
+                </div>
             </div>
-            <div class="indexfeatures">
-                <span>Easy code:</span><br/>
-                <div class="chip">Lombok 1.16.10</div>
-            </div>
-            <div class="indexfeatures">
-                <span>Web:</span><br/>
-                <div class="chip">Thymeleaf 3.0</div>
-                <div class="chip">Materialize CSS</div>
-            </div>
-            <div class="indexfeatures">
-                <span>Server and database:</span><br/>
-                <div class="chip">Tomcat 8.0.36</div>
-                <div class="chip">PostgreSQL</div>
-                <div class="chip">pgAdmin III</div>
-            </div>
-            <div class="indexfeatures">
-                <span>IDE:</span><br/>
-                <div class="chip">Intellij IDEA 2016.2.5</div>
-            </div>
-            <!--<iframe src="https://ghbtns.com/github-btn.html?user=aziaev&repo=wowmoneywebapp&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>-->
         </div>
     </div>
 </div>

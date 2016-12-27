@@ -7,9 +7,10 @@ import java.util.Collection;
 import java.util.Optional;
 
 public interface UserService {
+
     Optional<User> getUserById(long id);
 
-    Optional<User> getUserByName(String name);
+    Optional<User> getUserByEmail(String email);
 
     Collection<User> getAllUsers();
 

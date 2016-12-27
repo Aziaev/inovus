@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
@@ -16,7 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
-import java.util.NoSuchElementException;
 
 @Controller
 public class UserController {
@@ -35,28 +35,28 @@ public class UserController {
         binder.addValidators(userCreateFormValidator);
     }
 
-    @RequestMapping("/user/{id}")
-    public ModelAndView getUserPage(@PathVariable Long id) {
-        return new ModelAndView("user", "user", userService.getUserById(id)
-                .orElseThrow(() -> new NoSuchElementException(String.format("User=%s not found", id))));
-    }
-
-    @RequestMapping(value = "/user/create", method = RequestMethod.GET)
+    @PreAuthorize("isAnonymous()")
+    @RequestMapping(value = "/sign-up", method = RequestMethod.GET)
     public ModelAndView getUserCreatePage() {
+        LOGGER.info("Getting user create form");
         return new ModelAndView("user_create", "form", new UserCreateForm());
     }
 
-    @RequestMapping(value = "/user/create", method = RequestMethod.POST)
+    @PreAuthorize("isAnonymous()")
+    @RequestMapping(value = "/sign-up", method = RequestMethod.POST)
     public String handleUserCreateForm(@Valid @ModelAttribute("form") UserCreateForm form, BindingResult bindingResult) {
+        LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
+            //TODO: Попробовать здесь вывести на страницу сообщение
             return "user_create";
         }
         try {
             userService.create(form);
         } catch (DataIntegrityViolationException e) {
-            bindingResult.reject("name.exists", "name already exists");
+            LOGGER.warn("Exception occurred when trying to save the user, assuming duplicate email", e);
+            bindingResult.reject("name.exists", "Это имя уже используется");
             return "user_create";
         }
-        return "redirect:/users";
+        return "redirect:/sign-in";
     }
 }

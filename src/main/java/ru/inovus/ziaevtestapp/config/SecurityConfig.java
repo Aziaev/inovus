@@ -21,16 +21,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests()
-                .antMatchers("/", "/public/**").permitAll()
-                .antMatchers("/users/**").hasAuthority("ADMIN")
-                .antMatchers("/welcome/**").hasAuthority("ADMIN")
+        http.csrf().disable().authorizeRequests()
+                .antMatchers("/", "/welcome").permitAll()
+                .antMatchers("/icons/**").permitAll()
+                .antMatchers("/fonts/**").permitAll()
+                .antMatchers("/sign-up/**").permitAll()
                 .anyRequest().fullyAuthenticated()
                 .and()
                 .formLogin()
-                .loginPage("/login")
-                .failureUrl("/login?error")
-                .usernameParameter("name")
+                .loginPage("/sign-in")
+                .defaultSuccessUrl("/welcome")
+                .failureUrl("/sign-in?error")
+                .usernameParameter("email")
                 .permitAll()
                 .and()
                 .logout()
@@ -42,12 +44,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .rememberMe();
     }
 
-
     @Override
     public void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .userDetailsService(userDetailsService)
                 .passwordEncoder(new BCryptPasswordEncoder());
     }
-
 }

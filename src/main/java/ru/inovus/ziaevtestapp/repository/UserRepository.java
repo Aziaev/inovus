@@ -1,11 +1,12 @@
-package ru.inovus.ziaevtestapp.domain;
+package ru.inovus.ziaevtestapp.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
+
+import ru.inovus.ziaevtestapp.domain.User;
 
 import java.util.Optional;
 
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findOneByName(String email);
+    Optional<User> findOneByEmail(String email);
 }

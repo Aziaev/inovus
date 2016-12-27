@@ -102,6 +102,7 @@
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:3.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.1.8.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.10" level="project" />
     <orderEntry type="library" name="Maven: org.hsqldb:hsqldb:2.3.3" level="project" />
   </component>
 </module>
