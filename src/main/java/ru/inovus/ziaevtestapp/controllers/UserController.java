@@ -52,8 +52,8 @@ public class UserController {
         LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
             //TODO: LOG to file this
-            LOGGER.warn("Result has errors");
-            log.error("Usercreate.error" + bindingResult.getFieldError());
+            Logger logger = LoggerFactory.getLogger(UserController.class);
+            logger.info("Usercreate.error | " + form.getEmail() );
             return "user_create";
         }
         try {

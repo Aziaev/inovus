@@ -1,0 +1,17 @@
+ru\inovus\ziaevtestapp\service\currentuser\CurrentUserService.class
+ru\inovus\ziaevtestapp\domain\validator\UserCreateFormValidator.class
+ru\inovus\ziaevtestapp\domain\User.class
+ru\inovus\ziaevtestapp\domain\CurrentUser.class
+ru\inovus\ziaevtestapp\repository\UserRepository.class
+ru\inovus\ziaevtestapp\controllers\UserController.class
+ru\inovus\ziaevtestapp\service\currentuser\CurrentUserServiceImpl.class
+ru\inovus\ziaevtestapp\controllers\UsersController.class
+ru\inovus\ziaevtestapp\config\SecurityConfig.class
+ru\inovus\ziaevtestapp\domain\UserCreateForm.class
+ru\inovus\ziaevtestapp\service\user\UserService.class
+ru\inovus\ziaevtestapp\Application.class
+ru\inovus\ziaevtestapp\controllers\WelcomeController.class
+ru\inovus\ziaevtestapp\controllers\LoginController.class
+ru\inovus\ziaevtestapp\service\user\UserServiceImpl.class
+ru\inovus\ziaevtestapp\service\currentuser\CurrentUserDetailsService.class
+ru\inovus\ziaevtestapp\domain\Role.class
