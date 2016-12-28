@@ -1,7 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b557eae-9e68-42d8-9b55-64ca02f3c3f9" name="Default" comment="" />
+    <list default="true" id="9b557eae-9e68-42d8-9b55-64ca02f3c3f9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/config/SecurityConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UsersController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/WelcomeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/domain/CurrentUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/domain/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/domain/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/domain/UserCreateForm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/domain/validator/UserCreateFormValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/repository/UserRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/service/currentuser/CurrentUserDetailsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/service/currentuser/CurrentUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/service/currentuser/CurrentUserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/service/user/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/service/user/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/css/materialize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/css/materialize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/css/sticky-footer-navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Bold.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Bold.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Light.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Light.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Medium.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Thin.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Thin.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/images/parallax4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/js/materialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/js/materialize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/static/js/wow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/templates/user_create.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/groovy-2.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.11.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/hsqldb-2.3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/javax.transaction-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/ognl-3.0.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-jpa-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-thymeleaf-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.4.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.10.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-4.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-4.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-2.1.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-layout-dialect-1.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/thymeleaf-spring4-2.1.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jdbc-8.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-8.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/unbescape-1.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.4.01.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziaevtestapp.iws" afterPath="$PROJECT_DIR$/ziaevtestapp.iws" />
+    </list>
     <ignored path="ziaevtestapp.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -241,11 +372,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -312,7 +453,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/service/currentuser/CurrentUserDetailsService.java" />
         <option value="dbtable:/ziaevtestappe852559d/95e730f7-48c3-45f9-a9de-87f7fc343218/PUBLIC.PUBLIC.USER" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/CurrentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/service/user/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/validator/UserCreateFormValidator.java" />
@@ -324,6 +464,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1093,12 +1234,12 @@
       <workItem from="1482669231818" duration="16825000" />
       <workItem from="1482759554176" duration="12000" />
       <workItem from="1482759591136" duration="23640000" />
-      <workItem from="1482831959237" duration="28079000" />
+      <workItem from="1482831959237" duration="28848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68556000" />
+    <option name="totallyTimeSpent" value="69325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1285,14 +1426,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.3.RELEASE/spring-webmvc-4.3.3.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="847" column="0" selection-start-line="847" selection-start-column="0" selection-end-line="847" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.5/tomcat-embed-websocket-8.5.5-sources.jar!/org/apache/tomcat/websocket/server/WsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -1702,6 +1835,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding />
         </state>
       </provider>
