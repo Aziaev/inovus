@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* ru.inovus.ziaevtestapp.Application
+web: java -jar target\ziaevtestapp-1.0-SNAPSHOT.jar
