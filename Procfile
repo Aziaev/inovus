@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar --port $PORT target/*.war
+web: java -jar -Dport=8080 target\ziaevtestapp-1.0-SNAPSHOT.war

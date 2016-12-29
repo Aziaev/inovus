@@ -1,0 +1,61 @@
+<html layout:decorator="layout">
+<div layout:fragment="content">
+
+    <div class="container">
+        <div class="starter-template">
+            <div class="row">
+                <div class="col s12 m4 l3"></div>
+                <div class="col s12 m4 l6 card" style="padding-bottom: 18px; margin-top: 30px">
+                    <div class="col s12 wowbalance">
+                        <h3>Вход</h3>
+                    </div>
+                    <form role="form" action="/sign-in" method="post">
+                        <!--<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>-->
+                        <div class="row">
+                            <div class="col s12 m12 l12 valign-wrapper" style="height: 45px; padding-left: 20px">
+                                <div th:if="${error.isPresent()}">
+                                    <blockquote>
+                                        Электропочта или пароль не подходят
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-field col s12">
+                            <label for="email">Электропочта</label>
+                            <input type="email" name="email" id="email" th:required="true" th:autofocus="true"/>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <label for="password">Пароль</label>
+                            <input type="password" name="password" id="password" th:required="true"/>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <div class="switch" id="remember-me-switch">
+                                <label>
+                                    <input type="checkbox" name="remember-me" id="remember-me"/>
+                                    <span class="lever"></span>
+                                    Запомнить меня
+                                </label>
+                            </div>
+                        </div>
+                        <p></p>
+                        <div class="input-field col s12 loginbutton">
+                            <div>
+                                <button class="waves-effect waves-light btn" type="submit">Войти</button>
+                            </div>
+                        </div>
+                        <div class="col s12">
+                            <p>
+                                <a href="/sign-up" class="greylink">Регистрация</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="col s12 m4 l3"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</html>
