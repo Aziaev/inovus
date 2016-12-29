@@ -78,9 +78,14 @@
                     <execution>
                         <id>copy-dependencies</id>
                         <phase>package</phase>
-                        <goals>
-                            <goal>copy-dependencies</goal>
-                        </goals>
+                        <goals><goal>copy-dependencies</goal></goals>
+                        <configuration>
+                            <artifactItems>
+                                <groupId>com.hithub.jsimone</groupId>
+                                <version>8.0.24.0</version>
+                                <destFileName>webapp-runner</destFileName>
+                            </artifactItems>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
