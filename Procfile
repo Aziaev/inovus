@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 -jar target/ziaevtestapp-1.0-SNAPSHOT.war
+web: java $JAVA_OPTS -Dserver.port=$PORT -cp target/classes/:target/dependency
