@@ -1,1 +1,1 @@
-web: java -Dserver.port=9090 -jar target/ziaevtestapp-1.0-SNAPSHOT.war
+web: java -Dserver.port=8080 -jar target/ziaevtestapp-1.0-SNAPSHOT.war
