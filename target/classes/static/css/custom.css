@@ -124,3 +124,12 @@
 /*.errormessage {*/
     /*margin-top: 20px;*/
 /*}*/
+
+.greylink {
+    color: #9e9e9e;
+}
+
+.greylink:hover {
+    color: #747474;
+    text-decoration: underline;
+}
