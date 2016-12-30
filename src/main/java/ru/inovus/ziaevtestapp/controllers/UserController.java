@@ -24,7 +24,7 @@ import java.io.*;
 @Log4j
 @Controller
 public class UserController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
+    private static final Logger LOGGER = org.slf4j.LoggerFactory.getLogger(UserController.class);
     private final UserService userService;
     private final UserCreateFormValidator userCreateFormValidator;
 
@@ -52,8 +52,7 @@ public class UserController {
         LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
             //TODO: LOG to file this
-            Logger logger = LoggerFactory.getLogger(UserController.class);
-            logger.info("Usercreate.error | " + form.getEmail() );
+            LOGGER.warn("Usercreate.error | " + form.getEmail() );
             return "user_create";
         }
         try {

@@ -20,9 +20,6 @@
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.4.1.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.1.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.1.RELEASE" />
-            <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
-            <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
-            <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.21" />
             <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.21" />
             <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.17" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.4.1.RELEASE" />
@@ -63,7 +60,6 @@
             <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" />
-            <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:1.4.1.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.3.RELEASE" />
@@ -73,7 +69,6 @@
             <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:2.1.5.RELEASE" />
             <element id="library" level="project" name="Maven: ognl:ognl:3.0.8" />
             <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.0.RELEASE" />
-            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
             <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:4.0.2.RELEASE" />
             <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
             <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" />
@@ -81,6 +76,11 @@
             <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.3.RELEASE" />
             <element id="library" level="project" name="Maven: org.hsqldb:hsqldb:2.3.3" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
+            <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.22" />
+            <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.20" />
+            <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
+            <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
           </element>
         </element>
         <element id="directory" name="META-INF">
@@ -636,26 +636,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.10/lombok-1.16.10-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.21">
+    <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.22">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.21">
+    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.20">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.20/jul-to-slf4j-1.7.20.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.20/jul-to-slf4j-1.7.20-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.20/jul-to-slf4j-1.7.20-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.21">
@@ -669,15 +669,15 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:slf4j-api:1.7.21">
+    <library name="Maven: org.slf4j:slf4j-api:1.7.22">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.1.RELEASE">
