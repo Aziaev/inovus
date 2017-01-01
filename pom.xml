@@ -58,9 +58,38 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- DB -->
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
+        </dependency>
+
+        <!--Logging-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.22</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.7.22</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+            <version>1.7.20</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.7</version>
         </dependency>
     </dependencies>
 
@@ -77,14 +106,6 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
-<<<<<<< Updated upstream
-                        <goals><goal>copy-dependencies</goal></goals>
-                        <configuration>
-                            <artifactItems>
-                                <groupId>com.hithub.jsimone</groupId>
-                                <version>8.0.24.0</version>
-                                <destFileName>webapp-runner</destFileName>
-=======
                         <goals><goal>copy</goal></goals>
                         <configuration>
                             <artifactItems>
@@ -94,7 +115,6 @@
                                     <version>8.0.30.2</version>
                                     <destFileName>webapp-runner.jar</destFileName>
                                 </artifactItem>
->>>>>>> Stashed changes
                             </artifactItems>
                         </configuration>
                     </execution>
