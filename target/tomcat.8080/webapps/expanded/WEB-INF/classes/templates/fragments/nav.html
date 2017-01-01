@@ -1,0 +1,16 @@
+<nav class="indigo darken-3">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="/welcome" class="brand-logo">Логотип</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <div>
+                    <li><a href="/#whatisthis">Что это?</a></li>
+                    <li sec:authorize="!isAuthenticated()"><a href="/sign-up">Регистрация</a></li>
+                    <li sec:authorize="!isAuthenticated()"><a href="/sign-in"><i class="material-icons right">input</i>Войти</a></li>
+                    <li sec:authorize="isAuthenticated()"><span th:text="${username}"/></li>
+                    <li sec:authorize="isAuthenticated()"><a href="/logout" onclick="Materialize.toast('Logging out', 4000)"><i class="material-icons left">perm_identity</i>Выйти</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>

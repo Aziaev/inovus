@@ -1,0 +1,61 @@
+<html xmlns:sec="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorator="layout">
+<div layout:fragment="content">
+    <div class="section white">
+        <div class="row container rowmain valign-wrapper">
+            <div class="col s8 offset-s2" sec:authorize="!isAuthenticated()">
+                <h3 class="header center-align">Приложение запущено</h3>
+                <p class="grey-text text-darken-3 lighten-3 center-align">
+                    Для начала работы нужно зарегистрироваться.</p>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn" href="/sign-up">Регистрация</a>
+                </div>
+            </div>
+            <div class="col s8 offset-s2" sec:authorize="isAuthenticated()">
+                <h3 class="header center-align">Добр<span th:text="${greeting}"/> <span th:text="${username}"/>!</h3>
+                <p class="grey-text text-darken-3 lighten-3 center-align">
+                    Вы успешно авторизировались. Теперь вы можете выйти.</p>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn" href="/logout">Выйти</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section teal lighten-5">
+        <div class="row container" id="whatisthis">
+            <div class="col s8 offset-s2">
+                <h3 class="header center-align">Информация</h3>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Тестовое приложение Зиаева Артура. Реализовано с использованием следующих технологий:</p>
+                <div class="indexfeatures">
+                    <span>Backend:</span><br/>
+                    <div class="chip">Java 1.8</div>
+                    <div class="chip">Spring Boot</div>
+                    <div class="chip">Spring Security</div>
+                    <div class="chip">JPA</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Easy code:</span><br/>
+                    <div class="chip">Lombok 1.16.10</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Frontend</span><br/>
+                    <div class="chip">Thymeleaf 3.0</div>
+                    <div class="chip">Materialize CSS</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>Server and database:</span><br/>
+                    <div class="chip">Tomcat 8.0.36</div>
+                    <div class="chip">HSQLDB</div>
+                </div>
+                <div class="indexfeatures">
+                    <span>IDE:</span><br/>
+                    <div class="chip">Intellij IDEA 2016.2.5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</html>

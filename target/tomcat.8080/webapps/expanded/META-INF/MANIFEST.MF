@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: ziaevtestapp
+Implementation-Version: 1.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: Artur.Ziaev
+Implementation-Vendor-Id: ru.inovus.ziaevtestapp
+Spring-Boot-Version: 1.4.1.RELEASE
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: ru.inovus.ziaevtestapp.Application
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://maven.apache.org
+
