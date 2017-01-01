@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b557eae-9e68-42d8-9b55-64ca02f3c3f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UserController.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war.original" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UserController.class" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/controllers/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/ru.inovus.ziaevtestapp/ziaevtestapp/pom.properties" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/ru.inovus.ziaevtestapp/ziaevtestapp/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziaevtestapp.iws" afterPath="$PROJECT_DIR$/ziaevtestapp.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" afterPath="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" />
     </list>
     <ignored path="ziaevtestapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -211,6 +198,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserCreateForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/UserCreateForm.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -254,7 +253,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -317,7 +316,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/service/user/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/UserCreateForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/service/currentuser/CurrentUserDetailsService.java" />
@@ -338,6 +336,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/validator/UserCreateFormValidator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" />
       </list>
     </option>
   </component>
@@ -1276,12 +1275,12 @@
       <workItem from="1482759591136" duration="23640000" />
       <workItem from="1482831959237" duration="29422000" />
       <workItem from="1482996228660" duration="816000" />
-      <workItem from="1483006254044" duration="30140000" />
+      <workItem from="1483006254044" duration="31079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100855000" />
+    <option name="totallyTimeSpent" value="101794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1294,7 +1293,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1318,7 +1317,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1530,18 +1529,6 @@
         <state relative-caret-position="868">
           <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1941,6 +1928,16 @@
         <state relative-caret-position="289">
           <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,6 +13,8 @@ public class Application implements CommandLineRunner{
     private UserRepository userRepository;
 
     public static void main(String[] args) {
+//        String host = "0.0.0.0";
+//        int port = System.getenv(String.valueOf(8080));
         SpringApplication.run(Application.class, args);
     }
 
