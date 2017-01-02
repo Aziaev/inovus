@@ -23,9 +23,3 @@ public class Application implements CommandLineRunner{
 
     }
 }
-
-//DONE welcome - main page redirection
-//TODO: Registration
-//TODO: DB connection
-//TODO: login page works
-//TODO: CSRF

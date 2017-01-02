@@ -63,5 +63,6 @@ public class UserController {
         }
         LOGGER.info("Success login");
         return "redirect:/sign-in";
+//        TODO: autologin
     }
 }

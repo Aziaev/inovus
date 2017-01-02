@@ -39,7 +39,6 @@ public class UserCreateFormValidator implements org.springframework.validation.V
 
         if (!form.getPassword().equals(form.getPasswordRepeated())) {
             errors.reject("password.no_match", "Пароли не совпадают");
-            //TODO: check this?
             LOGGER.debug("Password not match for email " + form.getEmail());
         } else if (!passwordValidator.isAcceptablePassword(form.getPassword())) {
             errors.reject("password.length_error", "Пароль недостаточно сложен: должны быть цифры, заглавные и строчные буквы и длина минимум 8 символов");

@@ -21,6 +21,7 @@ public class LoginController {
     public ModelAndView getLoginPage(@RequestParam Optional<String> error) {
         if (error.isPresent()){
             LOGGER.error("Login_error | bad email or password");
+//            TODO: Add to error log email address
         }
         return new ModelAndView("login", "error", error);
     }
