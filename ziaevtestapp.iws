@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b557eae-9e68-42d8-9b55-64ca02f3c3f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/inovus/ziaevtestapp/Application.class" afterPath="$PROJECT_DIR$/target/classes/ru/inovus/ziaevtestapp/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/Application.class" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/WEB-INF/classes/ru/inovus/ziaevtestapp/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war.original" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT.war.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/Application.class" afterPath="$PROJECT_DIR$/target/ziaevtestapp-1.0-SNAPSHOT/WEB-INF/classes/ru/inovus/ziaevtestapp/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" afterPath="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/ru.inovus.ziaevtestapp/ziaevtestapp/pom.properties" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/ru.inovus.ziaevtestapp/ziaevtestapp/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziaevtestapp.iml" afterPath="$PROJECT_DIR$/ziaevtestapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziaevtestapp.ipr" afterPath="$PROJECT_DIR$/ziaevtestapp.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziaevtestapp.iws" afterPath="$PROJECT_DIR$/ziaevtestapp.iws" />
     </list>
     <ignored path="ziaevtestapp.iws" />
@@ -207,7 +201,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -262,11 +256,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+            <state relative-caret-position="-1418">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -344,8 +338,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/domain/validator/UserCreateFormValidator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/inovus/ziaevtestapp/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -1270,12 +1264,12 @@
       <workItem from="1482759591136" duration="23640000" />
       <workItem from="1482831959237" duration="29422000" />
       <workItem from="1482996228660" duration="816000" />
-      <workItem from="1483006254044" duration="36642000" />
+      <workItem from="1483006254044" duration="37741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107357000" />
+    <option name="totallyTimeSpent" value="108456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1440,13 +1434,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="416" column="33" selection-start-line="416" selection-start-column="33" selection-end-line="416" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE-sources.jar!/org/springframework/validation/BindingResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1911,18 +1898,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="890" column="25" selection-start-line="890" selection-start-column="25" selection-end-line="890" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1934,6 +1921,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
