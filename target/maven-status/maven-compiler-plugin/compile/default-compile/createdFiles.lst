@@ -4,6 +4,7 @@ ru\inovus\ziaevtestapp\domain\User.class
 ru\inovus\ziaevtestapp\domain\CurrentUser.class
 ru\inovus\ziaevtestapp\repository\UserRepository.class
 ru\inovus\ziaevtestapp\controllers\UserController.class
+ru\inovus\ziaevtestapp\domain\validator\PasswordValidator.class
 ru\inovus\ziaevtestapp\service\currentuser\CurrentUserServiceImpl.class
 ru\inovus\ziaevtestapp\controllers\UsersController.class
 ru\inovus\ziaevtestapp\config\SecurityConfig.class

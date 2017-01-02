@@ -35,14 +35,14 @@ public class UserCreateFormValidator implements org.springframework.validation.V
     }
 
     private void validatePasswords(Errors errors, UserCreateForm form) {
+        PasswordValidator passwordValidator = new PasswordValidator();
+
         if (!form.getPassword().equals(form.getPasswordRepeated())) {
             errors.reject("password.no_match", "Пароли не совпадают");
-            //TODO: need this in log file?
+            //TODO: check this?
             LOGGER.debug("Password not match for email " + form.getEmail());
-        } else if (
-                form.getPassword().length() < 8
-                        || form.getPassword().length() > 32){
-            errors.reject("password.length_error", "Пароль должен быть длиной от 8 до 32 символов");
+        } else if (!passwordValidator.isAcceptablePassword(form.getPassword())) {
+            errors.reject("password.length_error", "Пароль недостаточно сложен: должны быть цифры, заглавные и строчные буквы и длина минимум 8 символов");
             LOGGER.debug("Password length is incorrect for " + form.getEmail());
         }
     }
