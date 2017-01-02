@@ -51,15 +51,13 @@ public class UserController {
     public String handleUserCreateForm(@Valid @ModelAttribute("form") UserCreateForm form, BindingResult bindingResult) {
         LOGGER.info("Processing user create form={}, bindingResult={}", form, bindingResult);
         if (bindingResult.hasErrors()) {
-            //TODO: LOG to file this
-            Logger logger = LoggerFactory.getLogger(UserController.class);
-            logger.info("Usercreate.error | " + form.getEmail() );
+            LOGGER.error("User.create_error | " + form.getEmail() + " " + bindingResult.toString() );
             return "user_create";
         }
         try {
             userService.create(form);
         } catch (DataIntegrityViolationException e) {
-            LOGGER.warn("Exception occurred when trying to save the user, assuming duplicate email", e);
+            LOGGER.error("User.create_error | Duplicate email "  + form.getEmail(), e);
             bindingResult.reject("name.exists", "Это имя уже используется");
             return "user_create";
         }

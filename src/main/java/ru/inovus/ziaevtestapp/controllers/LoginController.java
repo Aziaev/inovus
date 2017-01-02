@@ -9,6 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.Optional;
 
 @Controller
@@ -18,8 +19,9 @@ public class LoginController {
 
     @RequestMapping(value = "/sign-in", method = RequestMethod.GET)
     public ModelAndView getLoginPage(@RequestParam Optional<String> error) {
-        LOGGER.debug("Getting login page, error={}" + error.toString(), error);
-        //TODO: LOG to file this
+        if (error.isPresent()){
+            LOGGER.error("Login_error | bad email or password");
+        }
         return new ModelAndView("login", "error", error);
     }
 }
